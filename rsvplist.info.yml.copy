@@ -1,0 +1,13 @@
+# Short name of the module
+name: RSVP List
+description: Allows users to RSVP for events and provides a contact list for administrators.
+# Define the "box" to add the module to on the admin "extend" screen
+package: RSVP List
+# Define if this is a module or a theme
+type: module
+# Version of the module
+version: 1.0
+# Version of core that this is used with
+core: 8.x
+# The path to configuration page when click on the "settings" from the admin page
+configure: rsvplist.admin_settings
