@@ -1,3 +1,4 @@
+# This was added to a block.  We don't need the page any longer, however, I am leaving it for reference.
 rsvplist.form:
   path: '/rsvplist'
   defaults:
@@ -19,10 +20,11 @@ rsvplist.admin_settings:
   requirements:
     _permission: 'administer rsvplist'
 
+# Add a page that will serve as a report displaying all current RSVPs
 rsvplist.report:
   path: '/admin/reports/rsvplist'
   defaults:
-    _controller: '\Drupal\rsvplist\Controller\ReportController::report' 
+    _controller: '\Drupal\rsvplist\Controller\ReportController::report'
     _title: 'List of RSVPs'
   requirements:
     _permission: 'view rsvplist'

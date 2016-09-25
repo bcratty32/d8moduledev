@@ -14,7 +14,8 @@ use Drupal\Core\Database\Database;
 class ReportController extends ControllerBase {
 
   /**
-   * Gets all RSVPs for all nodes.
+   * Gets all RSVPs for all nodes.  This builds the SQL query
+   * to retrieve the data from the database.
    *
    * @return array
    */
@@ -63,5 +64,4 @@ class ReportController extends ControllerBase {
     $content['#cache']['max-age'] = 0;
     return $content;
   }
-
 }

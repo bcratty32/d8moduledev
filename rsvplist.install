@@ -4,7 +4,7 @@
  *
  */
 function rsvplist_schema() {
-  // define the table
+  // define the table of RSVP submissions
   $schema['rsvplist'] = array(
     'description' => 'Stores email, timestamp, nid and uid for an rsvp',
     'fields' => array(
